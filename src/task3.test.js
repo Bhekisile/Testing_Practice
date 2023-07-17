@@ -1,7 +1,7 @@
 const mathOperations = require('./task3.js');
 
 describe('Math operations tests', () => {
-  it('adding 10 + 2 should return 3', () => {
+  it('adding 10 + 2 should return 12', () => {
     const result = mathOperations.sum(10, 2);
     expect(result).toBe(12);
   });
@@ -32,17 +32,17 @@ it('subtracting 6 from 18 should return 12', () => {
   expect(result).toBe(12);
 });
 
-it('dividing 10 from 2 should return 5', () => {
+it('dividing 10 by 2 should return 5', () => {
   const result = mathOperations.quot(10, 2);
   expect(result).toBe(5);
 });
 
-it('dividing 30 from 6 should return 5', () => {
+it('dividing 30 by 6 should return 5', () => {
   const result = mathOperations.quot(30, 6);
   expect(result).toBe(5);
 });
 
-it('dividing 18 from 6 should return 3', () => {
+it('dividing 18 by 6 should return 3', () => {
   const result = mathOperations.quot(18, 6);
   expect(result).toBe(3);
 });
